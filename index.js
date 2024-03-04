@@ -3,7 +3,7 @@ import readline from 'readline';
 
 const openai = new OpenAI({
   organization: 'org-zvQgdrUrI0wqfaS1bmDWyVdf',
-  apiKey: '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',
+  apiKey: '',
 });
 
 const userInterface = readline.createInterface({
