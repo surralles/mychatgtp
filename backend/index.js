@@ -14,7 +14,7 @@ dotenv.config();
 
 const openai = new OpenAI({
   organization: 'org-zvQgdrUrI0wqfaS1bmDWyVdf',
-  apiKey: process.env.OPEN_AI_KEY,
+  apiKey: process.env.OPEN_API_KEY,
 });
 
 app.post('/', async (request, response) => {
