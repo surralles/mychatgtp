@@ -5,12 +5,12 @@ import bodyParser from 'body-parser';
 import { configDotenv } from 'dotenv';
 import * as dotenv from 'dotenv';
 
+dotenv.config();
+
 const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
-
-dotenv.config();
 
 const openai = new OpenAI({
   organization: 'org-zvQgdrUrI0wqfaS1bmDWyVdf',

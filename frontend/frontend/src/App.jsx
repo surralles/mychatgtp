@@ -16,7 +16,7 @@ function App() {
 
     setMessage('');
 
-    fetch('http://localhost:5000', {
+    fetch('https://mychatgtp-sgjn.onrender.com', {
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
